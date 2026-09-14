@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 30</title>
+    <style>
+        iframe {
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- A normal webpage does not need any special permissions. -->
+    <iframe src="https://www.example.com" height="300" title="Normal example webpage"></iframe>
+
+    <!-- This interactive video needs fullscreen and gyroscope access. -->
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" height="450" title="Fullscreen gyroscope video" allow="fullscreen; gyroscope" allowfullscreen></iframe>
+
+    <!-- This device panel needs USB access to communicate with supported hardware. -->
+    <iframe src="https://device.example.com" height="400" title="USB device panel" allow="usb"></iframe>
+</body>
+</html>
